@@ -1,0 +1,34 @@
+{
+  "name": "mapcraft",
+  "version": "0.1.0",
+  "description": "Kick-starting development of web maps built around Mapbox GL JS.",
+  "main": "src/mapcraft.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iding-ir/mapcraft.git"
+  },
+  "keywords": [
+    "map", "GIS", "GeoJSON", "Mapbox GL JS"
+  ],
+  "author": {
+    "name": "Aydin Ghane Kh.",
+    "email": "aydin.ghane.kh@gmail.com",
+    "url": "http://iding.ir"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iding-ir/mapcraft/issues"
+  },
+  "homepage": "https://github.com/iding-ir/mapcraft#readme",
+  "devDependencies": {
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3"
+  },
+  "dependencies": {
+    "mapbox-gl": "^1.5.0",
+    "terraformer": "^1.0.9"
+  }
+}
