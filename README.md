@@ -16,7 +16,7 @@ Use as a node module:
 npm install mapcraft --save
 ```
 
-Or clone this repository, build a bundle and add it to your html file.
+Or clone this repository, build a bundle, and add it to your html file.
 
 ```
 git clone https://github.com/iding-ir/mapcraft.git
@@ -26,7 +26,7 @@ npm run build
 
 ## Examples
 
-[Demo](http://realstate-map.iding.ir) - [Github](https://github.com/iding-ir/realstate-map)
+[Demo](http://realestate-map.iding.ir) - [Github](https://github.com/iding-ir/realestate-map)
 
 [Demo](http://g2ocean.iding.ir) - [Github](https://github.com/iding-ir/g2-ocean)
 
