@@ -1,6 +1,6 @@
 {
   "name": "mapcraft",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Kick-starting development of web maps built around Mapbox GL JS.",
   "main": "src/mapcraft.js",
   "scripts": {
@@ -11,7 +11,10 @@
     "url": "git+https://github.com/iding-ir/mapcraft.git"
   },
   "keywords": [
-    "map", "GIS", "GeoJSON", "Mapbox GL JS"
+    "map",
+    "GIS",
+    "GeoJSON",
+    "Mapbox GL JS"
   ],
   "author": {
     "name": "Aydin Ghane Kh.",
