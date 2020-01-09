@@ -1,6 +1,6 @@
 {
   "name": "mapcraft",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Kick-starting development of web maps built around Mapbox GL JS.",
   "main": "src/mapcraft.js",
   "scripts": {
