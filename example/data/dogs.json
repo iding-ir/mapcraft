@@ -1,0 +1,46 @@
+{
+  "type": "FeatureCollection",
+  "features": [{
+      "type": "Feature",
+      "properties": {
+        "name": "Ramuss",
+        "icon": "dog"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3828125,
+          34.016241889667015
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wind",
+        "icon": "dog"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.921875,
+          36.31512514748051
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Morti",
+        "icon": "dog"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.34374999999999,
+          29.53522956294847
+        ]
+      }
+    }
+  ]
+}

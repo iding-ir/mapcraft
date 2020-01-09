@@ -1,0 +1,15 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+#app-map {
+  height: 100%;
+}
+
+h6 {
+  font-size: 18px;
+  margin: 0;
+}

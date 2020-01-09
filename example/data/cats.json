@@ -1,0 +1,32 @@
+{
+  "type": "FeatureCollection",
+  "features": [{
+      "type": "Feature",
+      "properties": {
+        "name": "Freya",
+        "icon": "cat"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.67968749999999,
+          34.016241889667015
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Otto",
+        "icon": "cat"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.25,
+          49.38237278700955
+        ]
+      }
+    }
+  ]
+}

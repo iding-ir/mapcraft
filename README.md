@@ -24,6 +24,12 @@ cd mapcraft
 npm run build
 ```
 
+To run the example:
+
+```
+npm start
+```
+
 ## Examples
 
 [Demo](http://realestate-map.iding.ir) - [Github](https://github.com/iding-ir/realestate-map)
