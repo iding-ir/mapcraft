@@ -177,7 +177,7 @@ const app = new Mapcraft({
   colors: {
     light: {
       primary: "#1976D2",
-      secondary: "#FAFAFA"
+      secondary: "#8BC34A"
     },
     dark: {
       primary: "#455A64",
@@ -205,7 +205,7 @@ const app = new Mapcraft({
   },
   defaultStyle: "light",
   icons: {
-    default: "./mapcraft/images/icon-default.png"
+    default: "/mapcraft/images/icon-default.png"
   },
   defaultIcon: "default",
   geoJsons: {},
