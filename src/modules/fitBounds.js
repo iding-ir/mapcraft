@@ -1,8 +1,9 @@
 import Terraformer from "terraformer";
 import { extend } from "./extend.js";
 
-export default function(opt) {
-  const options = extend(true,
+export const fitBounds = function(opt) {
+  const options = extend(
+    true,
     {
       geoJson: undefined,
       padding: 100,
@@ -21,4 +22,4 @@ export default function(opt) {
     pitch: options.pitch,
     bearing: options.bearing
   });
-}
+};

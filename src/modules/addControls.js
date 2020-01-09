@@ -1,8 +1,9 @@
 import mapboxgl from "mapbox-gl";
 import { extend } from "./extend.js";
 
-export default function(opt) {
-  const options = extend(true,
+export const addControls = function(opt) {
+  const options = extend(
+    true,
     {
       fullscreen: false,
       geolocation: false,
@@ -33,4 +34,4 @@ export default function(opt) {
 
     this.map.addControl(navigationControl, "top-right");
   }
-}
+};

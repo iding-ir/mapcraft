@@ -1,7 +1,8 @@
 import { extend } from "./extend.js";
 
-export default function(opt) {
-  const options = extend(true,
+export const fetchGeoJson = function(opt) {
+  const options = extend(
+    true,
     {
       geoJsons: undefined
     },
@@ -39,4 +40,4 @@ export default function(opt) {
         reject(error);
       });
   });
-}
+};

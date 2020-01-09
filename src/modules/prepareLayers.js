@@ -1,4 +1,4 @@
-export default function(suffix) {
+export const prepareLayers = function(suffix) {
   const prefixes = this.options.layersPrefixes;
   const layers = {};
 
@@ -17,4 +17,4 @@ export default function(suffix) {
   }
 
   return layers;
-}
+};

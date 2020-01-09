@@ -1,6 +1,6 @@
 import mapboxgl from "mapbox-gl";
 
-export default function() {
+export const buildMap = function() {
   return new Promise((resolve, reject) => {
     mapboxgl.accessToken = this.options.env.mapbox.token;
 
@@ -39,4 +39,4 @@ export default function() {
       resolve();
     });
   });
-}
+};

@@ -1,6 +1,6 @@
 import { extend } from "./extend.js";
 
-export default function(opt) {
+export const renderGeoJson = function(opt) {
   const options = extend(
     true,
     {
@@ -246,4 +246,4 @@ export default function(opt) {
 
     resolve();
   });
-}
+};

@@ -1,7 +1,8 @@
 import { extend } from "./extend.js";
 
-export default function(opt) {
-  const options = extend(true,
+export const colorizeDefaultMap = function(opt) {
+  const options = extend(
+    true,
     {
       colors: undefined
     },
@@ -23,4 +24,4 @@ export default function(opt) {
     "text-color",
     options.colors.text
   );
-}
+};

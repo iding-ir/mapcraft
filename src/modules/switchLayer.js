@@ -1,7 +1,8 @@
 import { extend } from "./extend.js";
 
-export default function(opt) {
-  const options = extend(true,
+export const switchLayer = function(opt) {
+  const options = extend(
+    true,
     {
       layer: undefined,
       visibility: undefined
@@ -10,4 +11,4 @@ export default function(opt) {
   );
 
   this.map.setLayoutProperty(options.layer, "visibility", options.visibility);
-}
+};

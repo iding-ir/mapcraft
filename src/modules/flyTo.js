@@ -1,7 +1,8 @@
 import { extend } from "./extend.js";
 
-export default function(opt) {
-  const options = extend(true,
+export const flyTo = function(opt) {
+  const options = extend(
+    true,
     {
       lnglat: undefined,
       zoom: 10
@@ -27,4 +28,4 @@ export default function(opt) {
       return t;
     }
   });
-}
+};

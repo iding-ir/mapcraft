@@ -5,23 +5,23 @@ Website: http://iding.ir
 Github: https://github.com/iding-ir/mapcraft
 */
 
-import getOptions from "./modules/getOptions";
-import getAppUrl from "./modules/getAppUrl";
-import load from "./modules/load";
-import buildMap from "./modules/buildMap";
-import loadIcons from "./modules/loadIcons";
-import fetchGeoJson from "./modules/fetchGeoJson";
-import prepareSource from "./modules/prepareSource";
-import prepareLayers from "./modules/prepareLayers";
-import renderGeoJson from "./modules/renderGeoJson";
-import closePopup from "./modules/closePopup";
-import openPopup from "./modules/openPopup";
-import colorizeDefaultMap from "./modules/colorizeDefaultMap";
-import addControls from "./modules/addControls";
-import makeLayerInteractive from "./modules/makeLayerInteractive";
-import fitBounds from "./modules/fitBounds";
-import flyTo from "./modules/flyTo";
-import switchLayer from "./modules/switchLayer";
+import { getOptions } from "./modules/getOptions";
+import { getAppUrl } from "./modules/getAppUrl";
+import { load } from "./modules/load";
+import { buildMap } from "./modules/buildMap";
+import { loadIcons } from "./modules/loadIcons";
+import { fetchGeoJson } from "./modules/fetchGeoJson";
+import { prepareSource } from "./modules/prepareSource";
+import { prepareLayers } from "./modules/prepareLayers";
+import { renderGeoJson } from "./modules/renderGeoJson";
+import { closePopup } from "./modules/closePopup";
+import { openPopup } from "./modules/openPopup";
+import { colorizeDefaultMap } from "./modules/colorizeDefaultMap";
+import { addControls } from "./modules/addControls";
+import { makeLayerInteractive } from "./modules/makeLayerInteractive";
+import { fitBounds } from "./modules/fitBounds";
+import { flyTo } from "./modules/flyTo";
+import { switchLayer } from "./modules/switchLayer";
 
 export default class Mapcraft {
   constructor(opt) {

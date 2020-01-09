@@ -1,7 +1,7 @@
 import mapboxgl from "mapbox-gl";
 import { extend } from "./extend.js";
 
-export default function(opt) {
+export const openPopup = function(opt) {
   const options = extend(
     true,
     {
@@ -19,4 +19,4 @@ export default function(opt) {
     .setLngLat(options.lnglat)
     .setHTML(options.html)
     .addTo(this.map);
-}
+};

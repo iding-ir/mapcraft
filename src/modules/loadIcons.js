@@ -1,7 +1,8 @@
 import { extend } from "./extend.js";
 
-export default function(opt) {
-  const options = extend(true,
+export const loadIcons = function(opt) {
+  const options = extend(
+    true,
     {
       icons: undefined
     },
@@ -35,4 +36,4 @@ export default function(opt) {
         reject(error);
       });
   });
-}
+};

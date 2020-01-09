@@ -1,7 +1,8 @@
 import { extend } from "./extend.js";
 
-export default function(opt) {
-  return extend(true,
+export const getOptions = function(opt) {
+  return extend(
+    true,
     {
       env: {
         mapbox: {
@@ -88,4 +89,4 @@ export default function(opt) {
     },
     opt
   );
-}
+};

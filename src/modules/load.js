@@ -1,4 +1,4 @@
-export default function() {
+export const load = function() {
   return new Promise((resolve, reject) => {
     this.buildMap().then(() => {
       this.loadIcons({
@@ -28,4 +28,4 @@ export default function() {
         });
     });
   });
-}
+};
