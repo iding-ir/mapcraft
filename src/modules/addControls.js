@@ -1,7 +1,8 @@
 import mapboxgl from "mapbox-gl";
+import { extend } from "./extend.js";
 
 export default function(opt) {
-  const options = Object.assign(
+  const options = extend(true,
     {
       fullscreen: false,
       geolocation: false,

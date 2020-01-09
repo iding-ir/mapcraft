@@ -1,5 +1,7 @@
+import { extend } from "./extend.js";
+
 export default function(opt) {
-  return Object.assign(
+  return extend(true,
     {
       env: {
         mapbox: {
