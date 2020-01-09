@@ -25,7 +25,7 @@ export const getOptions = function(opt) {
       colors: {
         light: {
           primary: "#1976D2",
-          secondary: "#FAFAFA"
+          secondary: "#8BC34A"
         },
         dark: {
           primary: "#455A64",
@@ -48,8 +48,6 @@ export const getOptions = function(opt) {
       },
       useBuiltIn: false,
       styles: {
-        // light: "/mapcraft/jsons/styles/light/style.json",
-        // dark: "/mapcraft/jsons/styles/dark/style.json",
         light: "mapbox://styles/mapbox/light-v10",
         dark: "mapbox://styles/mapbox/dark-v10"
       },

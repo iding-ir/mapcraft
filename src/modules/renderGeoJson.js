@@ -54,7 +54,7 @@ export const renderGeoJson = function(opt) {
               ["exponential", 0.8],
               ["zoom"],
               0,
-              0,
+              0.5,
               12,
               0.4
             ]
@@ -104,7 +104,7 @@ export const renderGeoJson = function(opt) {
               ["exponential", 0.8],
               ["zoom"],
               0,
-              0,
+              0.5,
               12,
               1
             ]
@@ -154,7 +154,7 @@ export const renderGeoJson = function(opt) {
               ["exponential", 0.8],
               ["zoom"],
               0,
-              0,
+              0.5,
               12,
               1
             ],
@@ -190,7 +190,7 @@ export const renderGeoJson = function(opt) {
               ["exponential", 0.8],
               ["zoom"],
               0,
-              0,
+              0.5,
               4,
               1
             ]
@@ -232,7 +232,7 @@ export const renderGeoJson = function(opt) {
               ["exponential", 0.8],
               ["zoom"],
               0,
-              0,
+              0.5,
               4,
               1
             ]

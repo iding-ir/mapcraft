@@ -10,11 +10,9 @@ let app = new Mapcraft({
     light: "/mapcraft/jsons/styles/light/style.json",
     dark: "/mapcraft/jsons/styles/dark/style.json"
   },
-  defaultStyle: "dark",
   icons: {
     cat: "/assets/images/icon-cat.png",
-    dog: "/assets/images/icon-dog.png",
-    default: "/assets/images/icon-default.png"
+    dog: "/assets/images/icon-dog.png"
   },
   geoJsons: {
     cats: "/data/cats.json",
