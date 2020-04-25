@@ -1,0 +1,25 @@
+{
+  "name": "Mapcraft",
+  "short_name": "Mapcraft",
+  "icons": [
+    {
+      "src": "favicon.ico?v=47B68lwkB7",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "android-chrome-192x192.png?v=47B68lwkB7",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "android-chrome-512x512.png?v=47B68lwkB7",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#1e88e5",
+  "background_color": "#1e88e5",
+  "start_url": ".",
+  "display": "standalone"
+}
